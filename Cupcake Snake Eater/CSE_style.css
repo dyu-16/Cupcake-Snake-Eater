@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+}
+
+#scoreBoard {
+  margin-top: 1.5rem;
+}
+
+#gameBoard > table {
+  margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: ghostwhite;
+    padding: 10px;
+    border: 2px solid black;
+    /* border-width: 0; */
+}
+
+.newGameJersey, .jersey{
+    background-color: lightslategray;
+}
+
+/* .newGameTail, .tail{
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    background-image:
+      linear-gradient(to bottom right, transparent 50%, lightslategray 0),
+      linear-gradient(to top right, lightslategray 50%, transparent 0);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    transform: rotate(270deg);
+  } */
+
+  .img {
+  padding: 0%;
+  }
+
+td img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+#newGame {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  background-color: lightsteelblue;
+}
+
+.snake {
+  background-color: green;
+}
+
+.cupcake {
+  background-color: pink;
+}
+
+#canvasCurrentScore {
+  color: pink;
+  font-weight: 500;
+}
+
+#canvasTopScore {
+color: navy;
+font-weight: 400;
+}
+
+/* #cell5, .cell7 {
+  display: none;
+} */
+
